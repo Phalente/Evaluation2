@@ -14,3 +14,41 @@ body {
 .container-fluid {
     height: 100%;
 }
+
+.box {
+    width: 150px;
+    height: 125px;
+    border-radius: 5px;
+    background-color: #DC3645;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*Font size*/
+.global-score {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.5em;
+    position: relative;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+main p {
+    font-size: 2.5em;
+}
