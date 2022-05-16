@@ -1,0 +1,16 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background:
+        radial-gradient(ellipse at top, var(--bg-color-1), var(--bg-color-2)),
+        radial-gradient(ellipse at bottom, var(--bg-color-1), var(--bg-color-2));
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid {
+    height: 100%;
+}
