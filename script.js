@@ -24,3 +24,43 @@ function changeDiceFace() {
 dice.addEventListener('click',lancerDe)
 rollDice.addEventListener('click',lancerDe)
 
+
+
+//Player 1 - Score Current
+
+//Déclaration de variable
+const player1CurrentScore = document.getElementById('player1CurrentScore')
+const player1GlobalScore = document.getElementById('player1GlobalScore')
+const player2CurrentScore = document.getElementById('player2CurrentScore')
+const player2GlobalScore = document.getElementById('player2GlobalScore')
+
+let player1
+let player2
+
+
+class Player{
+    constructor(currentScore, globalScore)
+        this.currentScore = currentScore 
+        this.globalScore = globalScore
+
+    function resultCurrent(){
+        if (scoreDice > 1){
+            currentScore = scoreDice + currentScore
+        }
+    }
+
+    function resultGlobal(){
+        globalScore = currentScore + globalScore
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
