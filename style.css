@@ -52,3 +52,22 @@ h4 {
 main p {
     font-size: 2.5em;
 }
+
+#diceFace {
+    height: 150px;
+    width: 150px;
+}
+
+#newGameBtn,
+#rollDiceBtn,
+#holdBtn {
+    transition: 0.3s;
+}
+
+#newGameBtn:hover,
+#rollDiceBtn:hover,
+#holdBtn:hover {
+    color: #DC3645;
+    font-size: 1.8em;
+    transition: 0.3s;
+}
